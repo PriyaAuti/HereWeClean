@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    tools:context=".CompanyNotificationActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:padding="5dp"
+        android:background="@color/colorBlack"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:text="Customer Name"
+            android:textColor="@android:color/white"
+            android:layout_weight="0.33"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Waste Type"
+            android:gravity="center_horizontal"
+            android:layout_weight="0.33"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="0dp"
+            android:text="Location"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_weight="0.33"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/CustomerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

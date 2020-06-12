@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wastemanagehere"
+    android:compileSdkVersion="21">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconsplash"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GenerateReportActivity"></activity>
+        <activity android:name=".CovidHighlightActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CompanyCovidDataActivity" />
+        <activity android:name=".CompanyOnSelectActivity" />
+        <activity android:name=".CompanyNotificationActivity" />
+        <activity android:name=".CompanyHomepageActivity" />
+        <activity android:name=".CompanyLoginActivity" />
+        <activity android:name=".CustomerCartActivity" />
+
+        <meta-data
+            android:name="com.here.sdk.access_key_id"
+            android:value="5pWlAObCycurdJMSeXohOw" />
+        <meta-data
+            android:name="com.here.sdk.access_key_secret"
+            android:value="bm6LvhsmTK_3WEvXX7fl8k4BoW8O4CwuMH6g6JPFNuBX8te1zipHQHbPLbkkkROtZ0qkrZ8p-6wdUrKBcnexQg" />
+
+        <activity android:name=".CustomerCovidInfoActivity" />
+        <activity android:name=".CustomerLogin2Activity" />
+        <activity android:name=".AddWasteActivity" />
+        <activity android:name=".GenerateWasteActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

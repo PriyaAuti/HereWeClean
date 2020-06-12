@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".CompanyOnSelectActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Customer name:"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Location:"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Type of waste:"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:id="@+id/waste_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category of waste:"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:id="@+id/category"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Selected Categories"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Due date:"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:id="@+id/tvduedate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Select"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Covid-19 highlight"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:id="@+id/txtczone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="which zone"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"
+            android:textColor="@color/colorWhite"
+            tools:ignore="InvalidId" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvcovidhighlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to know more about covid-19 highlights in customer's area"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"/>
+    <Button
+        android:id="@+id/btncollectwaste"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:text="Collect Waste"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:padding="15dp"
+        android:background="@drawable/custom_button"
+        />
+
+</LinearLayout>

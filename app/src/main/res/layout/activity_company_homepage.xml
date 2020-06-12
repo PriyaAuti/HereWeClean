@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".CompanyHomepageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8">
+
+        <com.here.sdk.mapview.MapView
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.here.sdk.mapview.MapView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:weightSum="1"
+        android:padding="40dp">
+
+        <Button
+            android:id="@+id/companynotification"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Notification"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_button"
+            />
+        <Button
+            android:id="@+id/btngeneratereport"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Generate Report"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_button"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

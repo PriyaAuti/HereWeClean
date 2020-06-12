@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GenerateWasteActivity"
+    android:background="@color/colorBlack">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/generate"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/your"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/waste"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/here"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btngenerate"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/generate"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:background="@drawable/custom_button"
+        />
+
+</LinearLayout>
+
+</RelativeLayout>

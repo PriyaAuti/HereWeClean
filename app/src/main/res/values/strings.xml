@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">HERE WeClean</string>
+    <string name="generate">Generate</string>
+    <string name="your">Your</string>
+    <string name="waste">Waste</string>
+    <string name="here">HERE</string>
+    <string name="covid">Covid-19 Highlights</string>
+    <string name="customername">Enter Customer Name Here..</string>
+    <string name="login">Login</string>
+    <string name="password">Enter Password Here..</string>
+    <string name="yourlocation">Your Current Location</string>
+    <string name="welcome">Welcome</string>
+    <string name="currentloc">Your current Location :</string>
+    <string name="typeofwaste">Select your type of waste :</string>
+    <string name="next">Next</string>
+    <string name="covidstatement">We are collecting following data in order to manage you waste durring Covid-19 pandamic.</string>
+    <string name="belongstowhichzone">Belongs to which zone?</string>
+    <string name="patient">Are you Covid-19 patent?</string>
+    <string name="familypatient">Covid-19 patient in your family?</string>
+    <string name="done">Done</string>
+    <string name="categoryofwaste">Select your category of waste :</string>
+    <string name="add">Add</string>
+    <string name="cart">Cart</string>
+    <string name="orderdetails">Waste Details :</string>
+    <string name="Submit">Submit</string>
+    <string name="companyname">Enter Company Name Here..</string>
+    <string name="covidhighlight">Click here for covid-19 highlight</string>
+    <string name="highlight">How to manage your waste during Covid-19?</string>
+    <string name="highlightdata">dataaaaaa</string>
+    <string name="generatereports">Currently proper database server is not connected,so unable to generate the report.</string>
+    <string name="covidinfo">Please find below covid-19 highlights,
+There are some non-hazardous wastes, like dry recyclable waste must also be handled with utmost care after coming in contact with covid-19 patients. The bigger challenge arises from the household and industrial waste of those exhibiting minor or negligible symptom as it affects the health of sanitation workers and informal sector waste collectors.
+As far as possible, dry waste should be quarantined within the premises for an appropriate time period before disposal, thereby allowing the virus to die.
+A virus stays on cardboard for about 24 hours and on plastics and stainless steel for about 72 hours, this creates a concern for sanitation workers and informal sector waste collectors.</string>
+    <string name="covidnote">Note: please ensure that your waste should be quarantined within the premises before generating your waste.</string>
+</resources>
